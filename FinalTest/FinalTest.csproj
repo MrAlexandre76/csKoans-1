@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasesCSharp\Calculatrice.cs" />
+    <Compile Include="BasesCSharp\IOperation.cs" />
+    <Compile Include="BasesCSharp\Multiplication.cs" />
+    <Compile Include="BasesCSharp\Somme.cs" />
+    <Compile Include="BasesCSharp\TypeReference.cs" />
+    <Compile Include="BasesCSharp\TypeValeur.cs" />
     <Compile Include="Nombres.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

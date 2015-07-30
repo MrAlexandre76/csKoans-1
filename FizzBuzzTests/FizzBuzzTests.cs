@@ -7,32 +7,30 @@ namespace FizzBuzzTests
     [TestClass]
     public class FizzBuzzTests
     {
+        private readonly FizzBuzz _fizzBuzz = new FizzBuzz();
+
         [TestMethod]
         public void TestUnNombreEnvoyeDivisibleParTrois_LaValeurRetourneeEstFizz()
         {
-            var fizzBuzz = new FizzBuzz();
-            Check.That(fizzBuzz.TesterNombre(3)).IsEqualTo("Fizz");
+            Check.That(_fizzBuzz.TesterNombre(3)).IsEqualTo("Fizz");
         }
 
         [TestMethod]
         public void TestUnNombreEnvoyeDivisibleParCinq_LaValeurRetourneeEstBuzz()
         {
-            var fizzBuzz = new FizzBuzz();
-            Check.That(fizzBuzz.TesterNombre(5)).IsEqualTo("Buzz");
+            Check.That(_fizzBuzz.TesterNombre(5)).IsEqualTo("Buzz");
         }
 
         [TestMethod]
         public void TestUnNombreEnvoyeDivisibleParTroisEtParCinq_LaValeurRetourneeEstFizzBuzz()
         {
-            var fizzBuzz = new FizzBuzz();
-            Check.That(fizzBuzz.TesterNombre(15)).IsEqualTo("FizzBuzz");
+            Check.That(_fizzBuzz.TesterNombre(15)).IsEqualTo("FizzBuzz");
         }
 
         [TestMethod]
         public void TestUnNombreEnvoyeDivisibleNiParTroisNiParCinq_LaValeurRetourneeEstVide()
         {
-            var fizzBuzz = new FizzBuzz();
-            Check.That(fizzBuzz.TesterNombre(8)).IsEqualTo(string.Empty);
+            Check.That(_fizzBuzz.TesterNombre(8)).IsEqualTo(string.Empty);
         }
     }
 }

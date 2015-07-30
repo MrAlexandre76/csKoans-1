@@ -49,6 +49,7 @@
     <Compile Include="BasesCSharp\Somme.cs" />
     <Compile Include="BasesCSharp\TypeReference.cs" />
     <Compile Include="BasesCSharp\TypeValeur.cs" />
+    <Compile Include="FizzBuzz\FizzBuzz.cs" />
     <Compile Include="Linq\Nombres.cs" />
     <Compile Include="Patterns\BalanceNégativeDétectée.cs" />
     <Compile Include="Patterns\CompteBancaire.cs" />

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using FinalTest.FizzBuzz;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NFluent;
 
 namespace FizzBuzzTests
